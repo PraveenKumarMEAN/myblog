@@ -1,0 +1,268 @@
+{
+	"id": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+	"name": "Interview Pracital",
+	"description": "",
+	"order": [
+		"396c3b8f-8c86-5e36-a2b9-7f546cecf9a1",
+		"4cae4041-044e-cacf-df80-0bbd260e5a06",
+		"347dcfe8-83c6-6e64-36a2-ab82471ddb03",
+		"848ef94d-1595-8711-b810-d68f64e3770d",
+		"81a6566d-18e1-7efb-3b41-148ceeb855c4",
+		"fe4e0894-1055-6170-84ef-95c674235f03",
+		"b1479949-18f4-5816-6f7d-0c95fcb626cf"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1654927601955,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "347dcfe8-83c6-6e64-36a2-ab82471ddb03",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTI4MjE2fQ.30eBnDb8NRMTssQSBDiT5pspnwGlT0-uKdDUR3CUSsY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTI4MjE2fQ.30eBnDb8NRMTssQSBDiT5pspnwGlT0-uKdDUR3CUSsY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/category/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/category/create",
+			"description": "Create Category",
+			"descriptionFormat": "html",
+			"time": 1654930252501,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"category_name\":\"Tech\"\n}"
+		},
+		{
+			"id": "396c3b8f-8c86-5e36-a2b9-7f546cecf9a1",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/auth/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/auth/register",
+			"description": "Register",
+			"descriptionFormat": "html",
+			"time": 1654927604325,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t \"first_name\":\"Praveen\", \n      \"last_name\":\"Kumar\",\n      \"email\":\"praveenkumarmean@gmail.com\",\n     \"password\":\"12345\",\n      \"dob\":\"1998-06-11T05:58:22.715Z\"\n}"
+		},
+		{
+			"id": "4cae4041-044e-cacf-df80-0bbd260e5a06",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/auth/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/auth/login",
+			"description": "Login",
+			"descriptionFormat": "html",
+			"time": 1654928149316,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t \"email\":\"praveenkumarmean@gmail.com\",\n     \"password\":\"12345\"\n}"
+		},
+		{
+			"id": "81a6566d-18e1-7efb-3b41-148ceeb855c4",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTI4MjE2fQ.30eBnDb8NRMTssQSBDiT5pspnwGlT0-uKdDUR3CUSsY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTI4MjE2fQ.30eBnDb8NRMTssQSBDiT5pspnwGlT0-uKdDUR3CUSsY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/blog/getAllBlog",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/blog/getAllBlog",
+			"description": "Get All Blogs\n",
+			"descriptionFormat": "html",
+			"time": 1654936752329,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"author\":\"\",\n\t\"title\":\"\",\n\t\"category\":\"\",\n\t\"recurrence\": {\n                \"recurrence_repeat\": {\n                    \"every\": \"\",\n                    \"day\": \"\"\n                },\n                \"recurrence_repeat_on_the\": {\n                    \"first\": \"\",\n                    \"day\": \"\",\n                    \"month\": \"\"\n                }\n            },\n            \"page\":1,\n            \"limit\":1\n}"
+		},
+		{
+			"id": "848ef94d-1595-8711-b810-d68f64e3770d",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTI4MjE2fQ.30eBnDb8NRMTssQSBDiT5pspnwGlT0-uKdDUR3CUSsY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTI4MjE2fQ.30eBnDb8NRMTssQSBDiT5pspnwGlT0-uKdDUR3CUSsY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/blog/create",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/blog/create",
+			"description": "Create Bolg",
+			"descriptionFormat": "html",
+			"time": 1654932566470,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\t\t\"title\":\"Best top 10 SmartPhone\", \n            \"description\":\"Best top 10 SmartPhone\", \n            \"publised_date\":\"2022-06-11T06:43:02.761+00:00\", \n            \"isPublished\":true, \n            \"category\":\"62a43976df99bf7c2791d74b\" , \n            \"start_date\":\"2022-06-11T06:43:02.761+00:00\", \n            \"end_date\":\"2025-06-11T06:43:02.761+00:00\",\n            \"recurrence\": {\n        \t\t\"recurrence_repeat\": {\n            \t\t\"every\": \"Day\",\n            \t\t\"day\":\"Monday\"\n        \t\t\t\t}\n        \t\n    }\n}"
+		},
+		{
+			"id": "b1479949-18f4-5816-6f7d-0c95fcb626cf",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTM3NzAxfQ.O0TZ8Fo2a2-METaI-LPGhaUCxV8NEvsROrOJvWkFfaA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0MmYxMjg2Njc1ZTRjZjhmNDdmMWIiLCJlbWFpbCI6InByYXZlZW5rdW1hcm1lYW5AZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjU0OTM3NzAxfQ.O0TZ8Fo2a2-METaI-LPGhaUCxV8NEvsROrOJvWkFfaA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/blog/deleteBlog",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/blog/deleteBlog",
+			"description": "Delete Blog",
+			"descriptionFormat": "html",
+			"time": 1654938259531,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\t\"id\":\"62a43fd0c4ff6441390e33fc\"\n}"
+		},
+		{
+			"id": "fe4e0894-1055-6170-84ef-95c674235f03",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0NTZmMWU1OTRiODZkYTNjZGQ4ZjYiLCJlbWFpbCI6InByYXZlZW5zaW5naDEwOTdAZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY1NDkzNzQzNH0.KQ4rCwicrWbIQh1sfRS8IoXC9jl6ZRNjjxi0Xudcsi0\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmE0NTZmMWU1OTRiODZkYTNjZGQ4ZjYiLCJlbWFpbCI6InByYXZlZW5zaW5naDEwOTdAZ21haWwuY29tIiwiZmlyc3RfbmFtZSI6IlByYXZlZW4iLCJsYXN0X25hbWUiOiJLdW1hciIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY1NDkzNzQzNH0.KQ4rCwicrWbIQh1sfRS8IoXC9jl6ZRNjjxi0Xudcsi0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:4000/blog/updateBlog",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ee25f558-9ba3-a572-5c39-08df3676c9a2",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:4000/blog/updateBlog",
+			"description": "Update Blog",
+			"descriptionFormat": "html",
+			"time": 1654937583810,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":\"62a4414bb7718d2e23b6e1d0\",\n\t\t\t\"title\":\"Best top 10 SmartPhone in India\", \n            \"description\":\"Best top 10 SmartPhone\", \n            \"publised_date\":\"2022-06-11T06:43:02.761+00:00\", \n            \"isPublished\":true, \n            \"category\":\"62a43976df99bf7c2791d74b\" , \n            \"start_date\":\"2022-06-11T06:43:02.761+00:00\", \n            \"end_date\":\"2025-06-11T06:43:02.761+00:00\",\n            \"recurrence\": {\n        \t\t\"recurrence_repeat\": {\n            \t\t\"every\": \"Day\",\n            \t\t\"day\":\"Monday\"\n        \t\t\t\t},\n        \t\"recurrence_repeat_on_the\": {\n            \"first\": \"day\",\n            \"day\": \"Monday\",\n            \"month\": \"3\"\n        }\n    }\n}"
+		}
+	]
+}
